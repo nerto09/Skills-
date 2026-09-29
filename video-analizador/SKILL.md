@@ -6,4 +6,5 @@ description: Analiza un video: transcribe el audio (faster-whisper) y lee el tex
 Comando: `video_analizador video.mp4 [-o carpeta] [--lang es|en|auto] [--model small|medium|large-v3] [--offline]`
 Requisitos: ffmpeg, tesseract-ocr (+spa), venv con faster-whisper, pytesseract, opencv-python-headless.
 Instalación: ver `/opt/video_analizador/README.md`. Script fuente: `scripts/video_analizador.py`.
+Antes de trabajar lee `APRENDIZAJES.md` (preferencias y plantilla de solicitud mínima) y añade allí lo nuevo que aprendas.
 Pendiente: el modelo Whisper requiere acceso a huggingface.co (bloqueado en el entorno actual).
